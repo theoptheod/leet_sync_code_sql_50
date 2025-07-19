@@ -1,6 +1,6 @@
 SELECT
-    `employeeuni`.`unique_id`,
-    `employees`.`name`
-FROM `employees`
-LEFT JOIN `employeeuni`
-ON `employees`.`id` = `employeeuni`.`id`;
+    `EmployeeUNI`.`unique_id`,
+    `Employees`.`name`
+FROM `Employees`
+LEFT JOIN `EmployeeUNI`
+ON `EmployeeUNI`.`id` = `Employees`.`id`;
