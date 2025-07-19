@@ -1,9 +1,8 @@
 # Write your MySQL query statement below
 SELECT
-    `product`.`product_name`,
-    `sales`.`year`,
-    `sales`.`price`
-FROM `product`
-INNER JOIN `sales`
-ON `product`.`product_id` = `sales`.`product_id`
-ORDER BY `sales`.`year` ASC;
+    `Product`.`product_name`,
+    `Sales`.`year`,
+    `Sales`.`price`
+FROM `Product`
+INNER JOIN `Sales`
+ON `Product`.`product_id` = `Sales`.`product_id`;
